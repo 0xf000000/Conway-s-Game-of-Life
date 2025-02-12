@@ -11,8 +11,8 @@
 
 // predefinitions
 
-#define WIDTH  50
-#define HEIGHT 25
+#define WIDTH  100
+#define HEIGHT 50
 #define CLEAR "\e[1;1H\e[2J"
 #define SET_CURSOR   "\x1b[H"
 #define CELL '*'

@@ -104,6 +104,8 @@ void applyRules(void)
 
       int nabers = getNabers(i);
 
+     
+
       // dies
       if (MAP[i] == CELL && nabers < 2)
       {
@@ -165,6 +167,7 @@ starting pattern:
 int main(int argc, char **argv)
 {
    
+   setupMap();
 
    while (running)
    {
